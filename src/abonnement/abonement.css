@@ -1,0 +1,213 @@
+/* ABONNEMENT */
+body{
+    margin:0;
+    font-family: ABeeZee;
+}
+.flex{
+    display:flex;
+    flex-direction: column;
+}
+#confort{
+    /* height:550px; */
+    height:350px;
+    margin:0 25% 10% 25% ;
+    background-image:url("../assets/images/abonnements/2023-03-02_09_08_04-Maquette_Fitness_Fabulous_Figma.png");
+    background-size: cover;
+}
+@keyframes slidedown{
+    from{height:350px}
+    to{height:550px}
+}
+@keyframes slideup{
+    from{height:550px}
+    to{height:350px}
+}
+    .logo{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .logo img{
+        height:auto;
+        width: 250px;
+    }
+    .titre{
+        font-weight: bold;
+        font-size: 5vw;
+        margin-top:2vw;
+    }
+    .blanc{
+        color:white;
+    }
+    .bouton img{
+        width: 100%;
+        position:relative;
+        bottom:180px;
+    }
+    @keyframes boutondown{
+        from{bottom:420px}
+        to{bottom:250px}
+    }
+    @keyframes appear{
+        from{display:none}
+        to{display:inline}
+    }
+
+    @keyframes boutonup{
+        from{bottom:250px}
+        to{bottom:420px}
+    }
+    @keyframes disappear{
+        from{display:inline}
+        to{display:none}
+    }
+    /* texte qui apparait */
+        .description{
+            display:none;
+            width:100%;
+            text-align: center;
+        }
+        .description h3{
+            line-height: 0.3;
+        }
+        .description h2{
+            font-size: 4vw;
+        }
+.premium{
+    height:350px;
+    margin:0 25% 10% 25% ;
+    background-image:url("../assets/images/abonnements/2023-03-01_19_33_15-Untitled_Figma.png");
+    background-size: cover;
+}
+.all-in{
+    height:350px;
+    margin:0 25% 10% 25% ;
+    background-image:url("../assets/images/abonnements/2023-03-01_19_35_10-Untitled_Figma.png");
+    background-size: cover;
+}
+
+
+
+
+
+/* FOOTER */
+/*fond*/
+footer{    
+    margin:15% 0 0 0;
+    width :100%;
+    height:20vw;
+    background-color: #C07F87;
+}
+footer h4{
+    font-size: x-large;
+}
+footer p{
+    line-height: 0.2;
+}
+/*colonne 1 - horaires*/
+.horaire{
+    display:inline-block;
+    vertical-align: top;
+    height: 100%;
+    width: 14%;
+    padding-left:1%;
+}
+.facebook{
+    background-image: url("../assets/images/footer/20673.png");
+    width:2vw;
+    height:2vw;
+    background-size:contain;
+    vertical-align: bottom;
+    margin: 1vw 1vw 0 0;
+}
+.instagram{
+    background: url("../assets/images/footer/4096262.png");
+    width:2vw;
+    height:2vw;
+    background-size:contain;
+    vertical-align: bottom;
+    margin:1vw;
+}
+.ib{
+    display:flex;
+    height: 4vw;
+    width: 100%;
+}
+/* colonne 2 - accès  */
+.acces{
+    display:inline-block;
+    vertical-align: top;
+    height:100%;
+    width:14%;
+    z-index:5;
+    
+}
+/* colonne3 - images + carte */
+.image{
+    display:inline-flex;
+    vertical-align: top;
+    height:100%;
+    width:50%;
+    overflow:hidden;
+} 
+    .chevrong{
+        display:inline-block;
+        position:relative;
+        /* right:300px; */
+        right:100px;
+        vertical-align:top;
+        height:20vw; 
+        z-index:2;
+    }
+    @keyframes slideg{
+        from{right:100px;}
+        to{ right:300px;}
+    }
+    @keyframes reslideg{
+        from{right:300px;}
+        to{ right:100px;}
+    }
+    .map{
+        display:inline-block;
+        position:relative;
+        right:200px;
+        vertical-align: top;
+        width:auto;
+        height:20vw;
+        z-index:1;
+    }
+    .chevrond{
+        display:inline-block;
+        position:relative;
+        right:300px;
+        /* right:200px; */
+        vertical-align:top;
+        height:20vw;
+        z-index:2;
+    }
+    @keyframes slided{
+        from{right:300px;}
+        to{ right:200px;}
+    }
+    @keyframes reslided{
+        from{right:200px;}
+        to{ right:300px;}
+    }
+
+ 
+ 
+/* colonne 4 - contact  */
+.contact{
+    display:inline-block;
+    vertical-align: top;
+    height:100%;
+    width:14%;
+    z-index:5;
+    padding-left:25px;
+}
+.contact img{
+    width:1vw;
+    height:1vw;
+    position:relative;
+    right:25px;
+    top:25px;
+}

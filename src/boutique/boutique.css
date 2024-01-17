@@ -1,0 +1,35 @@
+#boutique{
+    font-family: ABeeZee;
+    padding: 10px 15% 10px 15%;
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.bleu{
+    background-color: #297aa4;
+}
+.rose{
+    background-color:  #C07F87;
+}
+.gris{
+    background-color: #9fa6af;
+}
+.produit{
+    width:95%;
+    height:auto;
+    text-align: center;
+}
+.vignette{
+    margin:5px 10% 10px 10%;
+    width:15vw;
+    height:15vw;
+    object-fit: cover;
+}
+.chevron{
+width:100%;
+position:relative;
+bottom:12vw;
+vertical-align:bottom;
+}
+.infos{
+    display:none;
+}
